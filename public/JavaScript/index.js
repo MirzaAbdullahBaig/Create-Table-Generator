@@ -1,5 +1,5 @@
-let num1 = prompt("Enter some number")
-let num2 = prompt("Enter some other number")
+let num1 = parseInt(prompt("Enter some number"))
+let num2 = parseInt(prompt("Enter some other number"))
 
 for (var i=1; i <= num2; i++) {
     document.write("<b> <center> <br>")
